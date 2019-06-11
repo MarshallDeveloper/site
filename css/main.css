@@ -134,6 +134,9 @@ body {
     #sidenav a {
        font-size: 1.05em;
    }
+   #sidenavBtn {
+    font-size: 1.05em;
+}
 }
 
 @media screen and (max-width: 900px) {
