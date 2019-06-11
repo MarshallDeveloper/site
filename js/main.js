@@ -33,7 +33,7 @@ var configs = (function () {
                     "██║.╚═╝.██║.....██║██║..██║███████║██║..██║.....██║.██║.██║\n"+
                     "╚═╝.....╚═╝.....╚═╝╚═╝..╚═╝╚══════╝╚═╝..╚═╝.....╚═╝.╚═╝.╚═╝",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
-        welcome_file_name: "welcome_message.txt",
+        welcome_file_name: "",
         invalid_command_message: "<value>: command not found.",
         reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting...\n\n",
         permission_denied_message: "Unable to '<value>', permission denied.",
@@ -72,7 +72,7 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-        "about.txt": "I'm a full-time developer but the hacker for lulz",
+        "about.txt": "I'm a full-time developer but the hacker for the lulz",
         "email.txt": "marshall.developer@protonmail.com",
         "github.txt": "https://github.com/MarshallDeveloper"
     };
