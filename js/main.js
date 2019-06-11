@@ -26,11 +26,11 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome:    "███╗   ███╗██╗  ██╗██████╗ ███████╗██╗  ██╗██╗  ██╗ ██╗ ██╗/n"+
-                    "████╗ ████║██║  ██║██╔══██╗██╔════╝██║  ██║██║  ██║███║███║/n"+
-                    "██╔████╔██║███████║██████╔╝███████╗███████║███████║╚██║╚██║/n"+
-                    "██║╚██╔╝██║╚════██║██╔══██╗╚════██║██╔══██║╚════██║ ██║ ██║/n"+
-                    "██║ ╚═╝ ██║     ██║██║  ██║███████║██║  ██║     ██║ ██║ ██║/n"+
+        welcome:    "███╗   ███╗██╗  ██╗██████╗ ███████╗██╗  ██╗██╗  ██╗ ██╗ ██╗\n"+
+                    "████╗ ████║██║  ██║██╔══██╗██╔════╝██║  ██║██║  ██║███║███║\n"+
+                    "██╔████╔██║███████║██████╔╝███████╗███████║███████║╚██║╚██║\n"+
+                    "██║╚██╔╝██║╚════██║██╔══██╗╚════██║██╔══██║╚════██║ ██║ ██║\n"+
+                    "██║ ╚═╝ ██║     ██║██║  ██║███████║██║  ██║     ██║ ██║ ██║\n"+
                     "╚═╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝     ╚═╝ ╚═╝ ╚═╝",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
         welcome_file_name: "welcome_message.txt",
