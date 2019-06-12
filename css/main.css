@@ -81,7 +81,7 @@ body {
   padding: 2px !important;
   top: 0 !important;
   right: 7px !important;
-  font-size: 2em !important;
+  font-size: 34px !important;
 }
 
 #sidenav {
@@ -157,10 +157,10 @@ body {
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
+  ##Screen = B/w 500px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 767px) {
   
   body {
     font-size: 0.95em;
@@ -179,10 +179,10 @@ body {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 499px) {
   
   body {
-    font-size: 0.95em;
+    font-size: 0.8em;
   }
   #sidenav {
     padding-top: 1.3em;
