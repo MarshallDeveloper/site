@@ -160,8 +160,7 @@ body {
   ##Screen = B/w 500px to 767px
 */
 
-@media (min-width: 500px) and (max-width: 767px) {
-  
+/* @media (min-width: 500px) and (max-width: 767px) {
   body {
     font-size: 0.95em;
   }
@@ -171,64 +170,27 @@ body {
   #sidenav a {
     font-size: 1.05em;
   }
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 499px) {
-  
-  body {
-    font-size: 0.65em;
-  }
-  #sidenav {
-    padding-top: 1.3em;
-  }
-  #sidenav a {
-    font-size: 1.05em;
-  }
-  
-}
+} */
 
 #land { display:block; }
 
-@media only screen and (orientation:portrait){
-
+@media only screen and (orientation:portrait) and (max-device-width: 767px) {
   #land {
-
     height: 100vw;
-
     -webkit-transform: rotate(90deg);
-
     -moz-transform: rotate(90deg);
-
     -o-transform: rotate(90deg);
-
     -ms-transform: rotate(90deg);
-
     transform: rotate(90deg);
-
   }
-
 }
 
-@media only screen and (orientation:landscape){
-
+@media only screen and (orientation:landscape) and (max-device-width: 767px){
   #land {
-
      -webkit-transform: rotate(0deg);
-
      -moz-transform: rotate(0deg);
-
      -o-transform: rotate(0deg);
-
      -ms-transform: rotate(0deg);
-
      transform: rotate(0deg);
-
   }
-
 }
