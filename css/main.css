@@ -176,7 +176,7 @@ body {
 
 @media only screen and (max-device-width: 767px) {
   body {
-    font-size: 0.95em;
+    font-size: 0.95em !important;;
   }
 }
 
