@@ -193,11 +193,11 @@ body {
   
 }
 
-#container { display:block; }
+#land { display:block; }
 
 @media only screen and (orientation:portrait){
 
-  #container {
+  #land {
 
     height: 100vw;
 
@@ -217,7 +217,7 @@ body {
 
 @media only screen and (orientation:landscape){
 
-  #container {
+  #land {
 
      -webkit-transform: rotate(0deg);
 
