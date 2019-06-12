@@ -81,7 +81,7 @@ body {
   padding: 2px !important;
   top: 0 !important;
   right: 7px !important;
-  font-size: 2em !important;
+  font-size: 2em;
 }
 
 #sidenav {
@@ -136,9 +136,6 @@ body {
   #sidenav a {
     font-size: 1.05em;
   }
-  #sidenavBtn {
-    font-size: 0.5em;
-  }
 }
 
 @media screen and (max-width: 900px) {
@@ -155,4 +152,43 @@ body {
   body {
     width: 100%;
   }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  body {
+    font-size: 0.95em;
+  }
+  #sidenav {
+    padding-top: 1.3em;
+  }
+  #sidenav a {
+    font-size: 1.05em;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  body {
+    font-size: 0.95em;
+  }
+  #sidenav {
+    padding-top: 1.3em;
+  }
+  #sidenav a {
+    font-size: 1.05em;
+  }
+  
 }
