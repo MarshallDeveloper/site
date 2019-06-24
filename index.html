@@ -8,18 +8,7 @@
     <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="manifest" href="./json/manifest.json">
     <link href="./css/main.css" rel="stylesheet" type="text/css" />
-    <script src="./js/polyfills.js"></script>
-    <script src="./js/main.js"></script> </head>
-
-    <script>
-        /* you can pass in options here */
-        PleaseRotateOptions = {
-            startOnPageLoad: true,
-            forceLandscape: true, // if you would prefer to force portrait mode
-            onlyMobile: true,
-        };
-    </script>
-    <script src=".js/pleaserotate.js"></script>
+</head>
 
 <body id="land">
     <div id="sidenav">
@@ -31,11 +20,18 @@
         <div id="input-line" class="input-line">
             <div id="prompt" class="prompt-color"></div>&nbsp;
             <div>
-                <input type="text" id="cmdline" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
-                    autofocus/>
+                <input type="text" class="input" id="cmdline" autocomplete="off" autocorrect="off" autocapitalize="off"
+                    spellcheck="false" autofocus readonly="true" />
             </div>
         </div>
+        <div class="simple-keyboard" style="margin-left: 70px;display: contents;"></div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/keyboard.js"></script>
+    <script src="./js/polyfills.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
