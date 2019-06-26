@@ -109,6 +109,13 @@ var main = (function() {
     window.scrollTo(0, document.body.scrollHeight);
   };
 
+	window.addEventListener("load",function() {
+	    setTimeout(function(){
+		// This hides the address bar:
+		window.scrollTo(0, 1);
+	    }, 0);
+	});
+
   var isURL = function(str) {
     return (
       (str.startsWith("http") || str.startsWith("www")) &&
