@@ -190,9 +190,14 @@ body {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
   }
+
+  .hg-row {
+    margin-left: 60px !important;
+    width: 90vh !important;
+  }
 }
 
-@media only screen and (orientation: landscape) and (max-device-width: 767px) {
+/* @media only screen and (orientation: landscape) and (max-device-width: 767px) {
   #land {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -200,6 +205,11 @@ body {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+} */
+
+.hg-row {
+  margin-left: 65px;
+  width: 93vw;
 }
 
 .simple-keyboard {
@@ -214,6 +224,7 @@ body {
   overflow: hidden;
   touch-action: manipulation;
 
+  display: contents !important;
   position: fixed;
   bottom: 10;
   padding-left: 35px !important;
